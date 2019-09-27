@@ -1,0 +1,174 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #282c34;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  margin-top: 0;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 12px;
+}
+
+header ul li a {
+  color: #f5f5f5;
+  font-weight: bold;
+}
+
+header ul li a:hover {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+
+header .justify-right {
+  padding: 12px;
+}
+
+main {
+  margin: 40px 50px;
+  text-align: left;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+  color: #282c34;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-top: 35px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Vollkorn', serif;
+  color: #f5f5f5;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding-top: 7px;
+  font-size: 24px;
+}
+
+.tagline {
+  font-size: 24px;
+  font-family: 'Archivo', sans-serif;
+  color: #f5f5f5;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.blob {
+  font-size: 16px;
+  font-family: 'Archivo', sans-serif;
+  color: #f5f5f5;
+  font-style: italic;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 18px 18px 0 18px;
+  background: #ffffff;
+  font-weight: bold;
+}
+
+.birthday-input {
+  padding: 18px;
+  background: #ffffff;
+}
+
+.empty-cart-note {
+  padding-left: 10px;
+  padding-top: 8px;
+  font-size: 14px;
+}
+
+.loading {
+  margin: 30px;
+  color: #f5f5f5;
+}
+
+.alerts {
+  margin-bottom: 30px;
+  color: #333;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.alert-success { background: #d4edda; }
+.alert-warn { background: #fff3cd; }
+
+
+.view-grid {
+  display: flex;
+}
+
+.view-grid li {
+  width: 160px;
+  height: 160px;
+  list-style-type: none;
+}
+
+.view-grid li img {
+  width: 128px;
+  height: 128px;
+}
+
+.btn-select {
+  margin-bottom: 40px;
+  display: block;
+}
+
+.page-catalog .btn-select {
+  margin-left: 40px;
+}
+
+.page-checkout .btn-select {
+  margin-bottom: 16px;
+}
+
+
+table.bp3-html-table td.center-cell {
+  text-align: center;
+}
+
+table.bp3-html-table.checkout-table td {
+  vertical-align: middle;
+}
+
+table.bp3-html-table.checkout-table .checkout-total {
+  font-weight: bold;
+}
+
+table.bp3-html-table.checkout-table tfoot td {
+  text-align: right;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table.bp3-html-table.checkout-table tfoot td.checkout-discount-price,
+table.bp3-html-table.checkout-table tfoot td.checkout-total-price {
+  text-align: left;
+}
+
+.checkout-discount-text,
+.checkout-discount-price {
+  color: #0f9960;
+}
+
