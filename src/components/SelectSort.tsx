@@ -1,5 +1,5 @@
-import React, { InputHTMLAttributes, FormEvent } from 'react';
-import { Button, MenuItem, IInputGroupProps } from '@blueprintjs/core';
+import React from 'react';
+import { Button, MenuItem } from '@blueprintjs/core';
 import { Select, IItemRendererProps } from '@blueprintjs/select';
 
 interface IProps {

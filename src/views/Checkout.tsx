@@ -3,10 +3,8 @@ import { inject, observer } from 'mobx-react';
 import { Button, Intent, MenuItem } from '@blueprintjs/core';
 import { ICart, CartItem } from '../stores/cart';
 import { AppToaster } from '../utils/toaster';
-import { Select } from '@blueprintjs/select';
 import { withRouter, RouteComponentProps } from 'react-router-dom';
 import SelectSort from '../components/SelectSort';
-import { CatalogItem } from '../stores/catalog';
 
 interface IProps extends RouteComponentProps {
   cartStore?: ICart;
@@ -45,18 +43,6 @@ class Checkout extends Component<IProps> {
 
   private onDeleteItem = (id: number) => {
     this.deleteItem(id);
-  }
-
-  private renderQtyOption = (item:number) => {
-    return (
-      <MenuItem
-        //active={modifiers.active}
-        //disabled={modifiers.disabled}
-        key={item}
-        onClick={() => {}}
-        text={item}
-      />
-    );
   }
 
   private renderRow(item: CartItem) {

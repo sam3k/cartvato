@@ -1,5 +1,4 @@
-import {observable, runInAction} from 'mobx';
-import moment from 'moment';
+import {observable} from 'mobx';
 
 export enum ITEM {
   clothing = 'clothing',
